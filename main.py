@@ -51,5 +51,4 @@ def solve(nums: List[Union[Operation, int]]):
 
 if __name__ == "__main__":
     nums = [int(x) for x in sys.argv[1:]]
-    print(nums)
     solve(nums)
